@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+header {
+    text-align: center;
+    background-color: rgb(255, 179, 56);
+    font-family: Oswald;
+    font-weight: bolder;
+
+    position: sticky;
+    top: 0;
+
+    border: 5px #924600 solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+
+    background-color: #ffeeab;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: #924600;
+    color: white;
+}
+
+a {
+    background-color: #5c2c00;
+    color: white;
+    text-decoration: none;
+
+    margin: 2px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+body {
+    /*propiedades*/
+    background-color: #ffd695;
+    font-family: Montserrat;
+    margin: 0;
+}
+
+p {
+    color: rgb(67, 20, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+span {
+    background-color: rgb(255, 241, 199);
+    text-decoration: underline, wavy;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorUbi {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infoUbi {
+    width: 500px;
+}
+
+.botones {
+    color: white;
+    width: 300px;
+
+    background-color: rgb(255, 145, 0);
+
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton {
+    color: white;
+    width: 100%;
+
+    background-color: rgba(255, 215, 162, 0.5);
+
+    margin: 0;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.botones2 {
+    color: white;
+    width: 300px;
+
+    background-color: rgb(255, 42, 0);
+
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton2 {
+    color: white;
+    width: 100%;
+
+    background-color: rgba(255, 162, 162, 0.5);
+
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botones3 {
+    color: white;
+    width: 300px;
+
+    background-color: rgb(0, 72, 255);
+
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton3 {
+    color: white;
+    width: 100%;
+
+    background-color: rgba(30, 0, 255, 0.5);
+
+    margin: 0;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.imagen {
+    border-radius: 20px;
+}
+
+@media(max-width: 768px) {
+
+    .contenedor {
+        flex-wrap: wrap;
+    }
+
+    .contenedorUbi {
+        flex-wrap: wrap;
+    }
+
+}
+
+footer {
+    color: white;
+
+    background-color: #924600;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 5px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes {
+    font-family: Montserrat;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    padding-bottom: 20px;
+}
